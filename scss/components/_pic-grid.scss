@@ -1,3 +1,11 @@
 // **************************************
 // pic grid
 // **************************************
+
+.photo-thumbnail {
+  @include flex-me($dir:row, $just:center, $wrap:wrap);
+}
+
+.photo-thumbnail li {
+  flex: 1 0 21%;
+}

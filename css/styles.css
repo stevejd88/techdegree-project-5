@@ -341,8 +341,23 @@ template {
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 h1 {
   color: blue;
+}
+
+.photo-thumbnail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-thumbnail li {
+  flex: 1 0 21%;
 }
 
 /*# sourceMappingURL=styles.css.map */
