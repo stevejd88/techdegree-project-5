@@ -337,8 +337,19 @@ template {
   display: none;
 }
 
+ul {
+  padding: 0;
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul {
@@ -349,6 +360,11 @@ h1 {
   color: blue;
 }
 
+.photo-thumbnail img {
+  height: 150px;
+  width: 150px;
+}
+
 .photo-thumbnail {
   display: flex;
   flex-direction: row;
@@ -357,7 +373,7 @@ h1 {
 }
 
 .photo-thumbnail li {
-  flex: 1 0 21%;
+  flex: 1 0 50%;
 }
 
 /*# sourceMappingURL=styles.css.map */

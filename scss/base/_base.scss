@@ -5,6 +5,11 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  @include center;
+}
+
 ul {
   list-style-type: none;
 }
