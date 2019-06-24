@@ -2,6 +2,8 @@
 //Images
 //****************************
 .photo-thumbnail img {
-  height: 150px;
-  width: 150px;
+  height: (150 / 16) * 1em;
+  width: (150 / 16) * 1em;
+  margin: 0 auto;
+  margin-bottom: (50 / 16) * 1em;
 }

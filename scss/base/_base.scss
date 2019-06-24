@@ -12,8 +12,15 @@ body {
 
 ul {
   list-style-type: none;
+  margin: auto 0;
 }
 
 h1 {
   color: blue;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }

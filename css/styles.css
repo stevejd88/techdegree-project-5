@@ -354,15 +354,24 @@ body {
 
 ul {
   list-style-type: none;
+  margin: auto 0;
 }
 
 h1 {
   color: blue;
 }
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .photo-thumbnail img {
-  height: 150px;
-  width: 150px;
+  height: 9.375em;
+  width: 9.375em;
+  margin: 0 auto;
+  margin-bottom: 3.125em;
 }
 
 .photo-thumbnail {
