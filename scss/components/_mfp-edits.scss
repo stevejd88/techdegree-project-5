@@ -1,0 +1,30 @@
+//****************************
+// Magnific-popup edits
+//****************************
+img.mfp-img {
+  max-width: 80%;
+}
+
+.mfp-figure:after {
+  display: none;
+}
+
+.mfp-title {
+  font-family: sans-serif;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.mfp-bg {
+  background: #414141;
+  opacity: 0.95;
+  height: 100%;
+}
+
+.mfp-counter {
+  display: none;
+}
+
+.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: pointer;
+}
