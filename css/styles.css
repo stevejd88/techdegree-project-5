@@ -357,14 +357,18 @@ ul {
   margin: auto 0;
 }
 
-h1 {
-  color: blue;
-}
-
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
+}
+
+.search-field {
+  border: solid 1px #c4c4c4;
+  border-radius: 3px;
+  margin: 25px 0;
+  padding: 10px 20px 10px 10px;
+  width: 45%;
 }
 
 .photo-thumbnail img {
