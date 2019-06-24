@@ -8,4 +8,7 @@
 
 .photo-thumbnail li {
   flex: 1 0 50%;
+  @include mq('md') {
+    flex: 1 0 21%;
+  }
 }

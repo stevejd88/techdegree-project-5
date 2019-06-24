@@ -384,5 +384,10 @@ h1 {
 .photo-thumbnail li {
   flex: 1 0 50%;
 }
+@media (min-width: 768px) {
+  .photo-thumbnail li {
+    flex: 1 0 21%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
