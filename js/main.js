@@ -1,3 +1,4 @@
+//lightbox
 $(document).ready(function() {
 	$('.popup-gallery').magnificPopup({
 		delegate: 'a',
@@ -16,4 +17,16 @@ $(document).ready(function() {
 			}
 		}
 	});
+});
+
+
+//search box
+$('.search-field').keyup(function() {
+  var value = $(this).val();
+  var exp = new RegExp(value, 'i');
+
+    $('a').each(function() {
+        var isMatch = exp.test($(this).attr('title'));
+        $(this).parent().toggle(isMatch);
+    });
 });
