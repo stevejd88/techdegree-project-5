@@ -26,5 +26,17 @@ img.mfp-img {
 }
 
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: pointer;
+  cursor: default;
+}
+
+.mfp-bottom-bar {
+  padding-top: 30px;
+}
+
+.mfp-title {
+  color: $text-color;
+  margin: 0 auto;
+  max-width: 60%;
+  padding-right: 0;
+  text-align: center;
 }
